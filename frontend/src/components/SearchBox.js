@@ -29,7 +29,7 @@ function SearchBox() {
                 variant='outline-success'
                 className='p-2'
             >
-                Buscar
+                Search
             </Button>
         </Form>
     )

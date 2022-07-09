@@ -21,7 +21,7 @@ function Header() {
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
-                        <Navbar.Brand>Ecomerce</Navbar.Brand>
+                        <Navbar.Brand>Ecomerce For Academlo</Navbar.Brand>
                     </LinkContainer>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
