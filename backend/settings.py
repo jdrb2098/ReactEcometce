@@ -196,13 +196,13 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Dont forget to reset database connection and hide password
-#AWS_QUERYSTRING_AUTH = False
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_QUERYSTRING_AUTH = False
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-#AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-#AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_ACCESS_KEY_ID = 'AKIAXGUS7O47UXJQJCWW'
+AWS_SECRET_ACCESS_KEY = '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'
 
-#AWS_STORAGE_BUCKET_NAME = 'proshop-bucket-demo'
+AWS_STORAGE_BUCKET_NAME = 'ecomerceacademlo'
 
 
 if os.getcwd() == '/app':

@@ -25,7 +25,7 @@ function HomeScreen({ history }) {
         <div>
             {!keyword && <ProductCarousel />}
 
-            <h1>Latest Products</h1>
+            <h1>Carrusel de Productos</h1>
             {loading ? <Loader />
                 : error ? <Message variant='danger'>{error}</Message>
                     :
